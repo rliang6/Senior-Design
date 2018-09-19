@@ -2,6 +2,7 @@ import imageio
 import math
 import numpy as np
 from scipy import ndimage
+from convert2gray import convert2gray
 
 fname = input('Please entire the video location: '); #Type in the name of the video file that will be analyzed
 Car1 = input('What was the max number of cars? '); #For calibration purposes
@@ -10,6 +11,8 @@ vid = imageio.get_reader(fname);
 g_hps = [];
 min = 10000000000000;
 max = 0;
+
+convert2gray(fname)
 
 for i, image in enumerate(vid): #Iterates through the frames of the video
     lp = ndimage.gaussian_filter(image, 3); #Creates a gaussian low-pass-filtered image
