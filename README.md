@@ -6,6 +6,6 @@
 
 # Raymond 
 # Helped on installing the software to the Raspberry Pi
-# Worked on writing code to record the movie  and recorded multiple samples of the movies
+# Worked on writing code to record the movie  and recorded multiple samples of the movie
 # Worked on code to convert transfer data to excel spreadsheet
 # Wrote half the report
