@@ -1,7 +1,7 @@
 # Contribution
 # Steven
 # Coding for analysis algorithm of movie and converting movie to gray scale. 
-# Worked on installing the OS on to the raspberry pi. 
+# Worked on installing the OS on to the raspberry pi, as well as some of the libraries used. 
 # Wrote half the report
 
 # Raymond 
