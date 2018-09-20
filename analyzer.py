@@ -12,7 +12,7 @@ g_hps = [];
 min = 10000000000000;
 max = 0;
 
-convert2gray(fname)
+fname=convert2gray(fname)
 
 for i, image in enumerate(vid): #Iterates through the frames of the video
     lp = ndimage.gaussian_filter(image, 3); #Creates a gaussian low-pass-filtered image
